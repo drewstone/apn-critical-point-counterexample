@@ -8,8 +8,8 @@ with the same 0/1 coordinates in 1, xi, ..., xi^(m-1). The script evaluates this
 4^m ring elements and counts distinct values. A permutation of GR(4, m) refutes Conjecture 1 of
 arXiv:2608.30808 directly, since k = 2 is the case that every k > 1 reduces to.
 
-    python3 gr_lift.py          # hand example, apn_m5, apn_m7 and the x^3 control; about a minute
-    python3 gr_lift.py --all    # adds apn_m9 (262,144 ring elements); much slower in pure Python
+    python3 gr_lift.py          # hand example, apn_m5, apn_m7 and the x^3 control; seconds
+    python3 gr_lift.py --all    # adds apn_m9 (262,144 ring elements); about 10 minutes
 
 Exits non-zero if a lift of a counterexample is not a permutation, or if the control is.
 """

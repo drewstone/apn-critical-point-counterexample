@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """One command: the finite-field checks (check.py), then the direct GR(4, m) lift checks (gr_lift.py).
 
-    python3 verify.py          # about a minute
+    python3 verify.py          # a few seconds
     python3 verify.py --all    # also evaluates the m = 9 lift on all 262,144 elements of GR(4, 9)
 
 Exits non-zero if any check fails.

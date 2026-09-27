@@ -113,8 +113,8 @@ The lifts to `GR(4, 5)`, `GR(4, 7)` and `GR(4, 9)` take 1024, 16,384 and 262,144
 ## Verify it yourself
 
 ```sh
-python3 verify.py          # about a minute
-python3 verify.py --all    # adds the GR(4, 9) lift; about 20 minutes in pure Python
+python3 verify.py          # a few seconds
+python3 verify.py --all    # adds the GR(4, 9) lift; about 10 minutes in pure Python
 ```
 
 Python 3.8 or later, standard library only.
