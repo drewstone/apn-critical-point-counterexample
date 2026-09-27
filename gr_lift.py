@@ -6,7 +6,7 @@ The lift of the reduced representative f = sum a_k x^k replaces each coefficient
 bits are its coordinates in the basis 1, alpha, ..., alpha^(m-1), by the element of GR(4, m)
 with the same 0/1 coordinates in 1, xi, ..., xi^(m-1). The script evaluates this lift at all
 4^m ring elements and counts distinct values. A permutation of GR(4, m) refutes Conjecture 1 of
-arXiv:2608.30808 directly, since k = 2 is the case that every k > 1 reduces to.
+arXiv:2608.30808 directly, because the conjecture covers k = 2.
 
     python3 gr_lift.py          # hand example, apn_m5, apn_m7 and the x^3 control; seconds
     python3 gr_lift.py --all    # adds apn_m9 (262,144 ring elements); about 10 minutes
