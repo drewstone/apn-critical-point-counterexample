@@ -1,0 +1,7 @@
+{
+ "m": 5,
+ "modulus": "x^5 + x^2 + 1",
+ "modulus_bits": 37,
+ "encoding": "the integer i stands for the field element sum of b_j * alpha^j, where b_j is bit j of i and alpha is a root of the modulus; table[i] = F(i)",
+ "table": [23, 17, 24, 12, 16, 25, 3, 15, 9, 22, 10, 4, 29, 0, 7, 28, 27, 8, 14, 31, 5, 2, 1, 19, 30, 6, 18, 11, 21, 20, 13, 26]
+}
